@@ -13,7 +13,7 @@ on:
       versionIncrementBranch:
         description: 'The branch where the version increment will be committed and pushed'
         required: true
-        default: 'master'
+        default: 'main'
 jobs:
   incrementVersion:
     runs-on: ubuntu-latest
