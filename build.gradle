@@ -3,4 +3,9 @@ plugins {
     id 'com.android.application' version '7.4.0-rc03' apply false
     id 'com.android.library' version '7.4.0-rc03' apply false
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
+    id 'com.dipien.android.semantic-version' version '1.4.1' apply false
 }
+
+version = "0.1.0"
+
+apply plugin: "com.dipien.android.semantic-version"
